@@ -22,6 +22,11 @@
 	<?= $Wcms->settings() ?>
 	<?= $Wcms->alerts() ?>
 	
+	<header>
+<a href="#" class="logo">Logo</a> <button>Home</button>
+<a href="#" class="button">News</a> <span>|</span>
+<button>About</button> <button>Contact</button>
+</header>
 	
 	<?= $Wcms->menu() ?>
 	
